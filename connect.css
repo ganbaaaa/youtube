@@ -1,0 +1,286 @@
+*
+{
+    font-family: "Poppins",sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-padding-top: 2rem;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    text-decoration:none;
+}
+body
+{
+    height: 3500px;
+}
+.container
+{
+    max-width: 1068px;
+    margin: auto;
+    width: 100%;
+}
+.section
+{
+    padding: 4rem 0 3rem;
+}
+header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 1px 4px hsl(0, 4%, 15% /10%);
+    z-index: 100;
+}
+.cart-title
+{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 70px;
+    margin-left: -150px;
+}
+.remove-icon
+{
+    font-size: 24px;
+    color: red;
+    cursor: pointer;
+}
+.cancel
+{
+    position: absolute;
+    top: 5rem;
+    right: 0.8rem;
+    font-size: 2rem;
+    color: #000;
+    cursor: pointer;
+}
+.card .active
+{
+    right:0;
+}
+.total
+{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1.5rem;
+    border-top: 1px solid#0ef;
+}
+.buybtn
+{
+    display: flex;
+    margin:1.5rem auto 0 auto;
+    padding:12px 20px;
+    background-repeat: none;
+    background: #000;
+    color: #fff;
+    font-size:1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+.buybtn:hover{
+    background: blue;
+}
+.ok
+{
+    margin-left: 80px;
+    margin-bottom: 80px;
+    width: 91px;
+    height: 25px;
+}
+.remove-icon
+{
+    width: 40px;
+    height: 20px;
+}
+.nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.logo
+{
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+#cart-icon 
+{
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+.section-title
+{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 88px;
+}
+.section-title1
+{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 88px;
+}
+.shop-content
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px , auto));
+    gap: 1.5rem;
+    margin-top: 30px;
+    margin-right: 200px;
+}
+.shop-content1
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px , auto));
+    gap: 1.5rem;
+    margin-top: 30px;
+    margin-right: 200px;
+}
+.product-box
+{
+    position: relative;
+}
+.product-box:hover{
+    padding-top: 10px;
+    transition: 0.4s;
+}
+.product-img
+{
+    width: 100%;
+    height: auto;
+    margin-bottom:0.5rem;
+}
+.add-cart
+{
+    position:absolute;
+    bottom: 0;
+    right: 0;
+    background: #000;
+    color: #0ef;
+    cursor: pointer;
+}
+.add-cart1
+{
+    position:absolute;
+    bottom: 10;
+    right: 10;
+    background: #000;
+    color: #0ef;
+    cursor: pointer;
+}
+.product-img1
+{
+    width: 20em;
+    height: 15em;
+}
+.product-img-boot
+{
+    width: 20em;
+    height: 15em;
+    width: 100%;
+    margin-left: -430px;
+    margin-top: 250px;
+    justify-content: space-between;
+}
+
+.product-box-boot
+{
+    position: relative;
+    justify-content: space-between;
+}
+.product-box-boot:hover{
+    padding-top: 10px;
+    transition: 0.4s;
+}
+.product-ttle1
+{
+    margin-left: -450px;
+}
+.add-cart-boot
+{
+    margin-left: -px;
+    background: #000;
+    color: #0ef;
+}
+.price-boot
+{
+    margin-left: -450px;
+}
+.card
+{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 360px;
+    min-height: 100vh;
+    padding:20px;
+    background: #fff;
+    box-shadow: -2px 0 4px hsl(0, 4%, 15% / 10%);
+}
+.boot-title
+{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 88px;
+    margin-left: 50px;
+}
+.boot-img1
+{
+    width: 250px;
+    margin-top: 55%;
+    display: grid;
+    
+}
+.boot-img1:hover{
+    padding-top: 10px;
+    transition: 0.4s;
+}
+.boot-img2
+{
+    width: 250px;
+    margin-top: -60%;
+    display: grid;
+}
+.boot-img2:hover{
+    padding-top: 10px;
+    transition: 0.4s;
+}
+.boot-icon
+{
+    background: #000;
+    color: #0ef;
+}
+.boot-icon1
+{
+    background: #000;
+    color: #0ef;
+}
+.text2
+{
+    margin-top: -200%;
+}
+.boot-icon4
+{
+    background: #000;
+    color: #0ef;
+}
+.cart-box   
+{
+    display: grid;
+    grid-template-columns: 32% 50% 18%;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.jack
+{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    padding:10px;
+}
